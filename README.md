@@ -22,7 +22,7 @@ Zelos is a lightweight, embedded data store for .NET applications. It leverages 
 - **Efficient Persistence:** Automatically saves only when necessary to reduce disk IO.
 - **Resource Management:** Designed to automatically dispose resources when no longer needed, ensuring clean shutdowns.
 - **Repository Pattern Integration:** Streamlines CRUD operations with a familiar design pattern.
-- 
+
 ---
 
 ## Architecture & Components
