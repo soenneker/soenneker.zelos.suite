@@ -29,11 +29,10 @@ Zelos is a lightweight, embedded data store for .NET applications. It leverages 
 
 ### `ZelosDatabase`
 
-- **Role:** Core engine managing the persistence layer.
-- **Key Aspects:**
-  - Loads or creates the database file on startup.
-  - Periodically saves dirty containers.
-  - Manages container initialization and data consistency.
+- Core engine managing the persistence layer.
+- Loads or creates the database file on startup.
+- Periodically saves dirty containers.
+- Manages container initialization and data consistency.
 
 ### `ZelosContainer` & `IZelosContainerUtil`
 
@@ -47,11 +46,10 @@ Zelos is a lightweight, embedded data store for .NET applications. It leverages 
 
 ### `ZelosRepository`
 
-- **Role:** Provides a higher-level abstraction using the repository pattern.
-- **Key Aspects:**
-  - Exposes common CRUD operations for generic document types.
-  - Uses `IZelosContainerUtil` internally to obtain the right container.
-  - Integrates logging and configuration for detailed diagnostics.
+- Provides a higher-level abstraction using the repository pattern.
+- Exposes common CRUD operations for generic document types.
+- Uses `IZelosContainerUtil` internally to obtain the right container.
+- Integrates logging and configuration for detailed diagnostics.
 
 ---
 
