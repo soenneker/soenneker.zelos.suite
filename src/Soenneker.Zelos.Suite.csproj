@@ -43,6 +43,6 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.2" />
-        <PackageReference Include="Soenneker.Zelos.Repository" Version="3.0.76" />
+        <PackageReference Include="Soenneker.Zelos.Repository" Version="3.0.78" />
     </ItemGroup>
 </Project>
