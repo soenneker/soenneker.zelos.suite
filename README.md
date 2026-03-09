@@ -1,6 +1,7 @@
-Ôªø[![](https://img.shields.io/nuget/v/soenneker.zelos.suite.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.zelos.suite/)
+[![](https://img.shields.io/nuget/v/soenneker.zelos.suite.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.zelos.suite/)
 [![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.zelos.suite/publish-package.yml?style=for-the-badge)](https://github.com/soenneker/soenneker.zelos.suite/actions/workflows/publish-package.yml)
 [![](https://img.shields.io/nuget/dt/soenneker.zelos.suite.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.zelos.suite/)
+[![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.zelos.suite/codeql.yml?label=CodeQL&style=for-the-badge)](https://github.com/soenneker/soenneker.zelos.suite/actions/workflows/codeql.yml)
 
 # ![](https://user-images.githubusercontent.com/4441470/224455560-91ed3ee7-f510-4041-a8d2-3fc093025112.png) Soenneker.Zelos.Suite
 ### The file-based JSON document database engine
@@ -38,7 +39,7 @@ Zelos is a lightweight, embedded data store for .NET applications. It leverages 
 
 - **ZelosContainer:**
   - Represents an in-memory container for key/value pairs (stored as JSON).
-  - Handles adding, updating, and deleting items, marking itself as ‚Äúdirty‚Äù for periodic saves.
+  - Handles adding, updating, and deleting items, marking itself as ìdirtyî for periodic saves.
   
 - **IZelosContainerUtil:**
   - **Usage:** Retrieves containers by combining the database file path and container name.
