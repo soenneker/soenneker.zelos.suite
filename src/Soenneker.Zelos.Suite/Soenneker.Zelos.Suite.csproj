@@ -44,6 +44,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Zelos.Repository" Version="4.0.852" />
+        <PackageReference Include="Soenneker.Zelos.Repository" Version="4.0.853" />
     </ItemGroup>
 </Project>
