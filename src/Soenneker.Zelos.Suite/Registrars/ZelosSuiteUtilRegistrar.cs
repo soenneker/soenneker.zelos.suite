@@ -9,10 +9,10 @@ namespace Soenneker.Zelos.Suite.Registrars;
 public static class ZelosSuiteUtilRegistrar
 {
     /// <summary>
-    /// Adds zelos suite util as singleton.
+    /// Registers Zelos Suite Util with a singleton lifetime.
     /// </summary>
-    /// <param name="services">The service collection.</param>
-    /// <returns>The result of the operation.</returns>
+    /// <param name="services">Service collection that receives the registration.</param>
+    /// <returns>The same service collection, so additional registrations can be chained.</returns>
     public static IServiceCollection AddZelosSuiteUtilAsSingleton(this IServiceCollection services)
     {
         services.AddZelosContainerUtilAsSingleton();
